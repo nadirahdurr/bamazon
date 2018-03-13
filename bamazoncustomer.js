@@ -42,7 +42,6 @@ function displayItems() {
     });
 };
 
-// ============== Asking customers the item ID & quantity they want to buy ========== // 
 function questions() {
   inquirer.prompt([
       {
@@ -89,9 +88,7 @@ function processOrder(item, answer){
 if (parseInt(item.stock_quanity) >= parseInt(answer.quanity)){
   var newQuantity = parseInt(item.stock_quanity) - parseInt(answer.stock_quanity)
   connection.query('UPDATE products SET ? WHERE ?', [{stock_quanity: newQuantity}, {item_id: item.item_id}])
-    console.log ("\n####################")
     console.log('Total Cost = ' + parseInt(item.price) * parseInt(answer.stock_quanity))
-    console.log ("##################################")
 
   inquirer.prompt([
     {
