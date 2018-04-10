@@ -86,9 +86,9 @@ function findItem(answer){
 
 function processOrder(item, answer){
 
-if (parseInt(item.stock_quanity) >= parseInt(answer.quanity)){
-  var newQuantity = parseInt(item.stock_quanity) - parseInt(answer.stock_quanity)
-  connection.query('UPDATE products SET ? WHERE ?', [{stock_quanity: newQuantity}, {item_id: item.item_id}])
+if (parseInt(item.stock_quanity) >= parseInt(answer.stock_quanity)){
+  var newQuanity = parseInt(item.stock_quanity) - parseInt(answer.stock_quanity)
+  connection.query('UPDATE products SET ? WHERE ?', [{stock_quanity: newQuanity}, {item_id: item.item_id}])
     console.log ("\n####################")
     console.log('Total Cost = ' + parseInt(item.price) * parseInt(answer.stock_quanity))
     console.log ("##################################")
