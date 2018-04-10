@@ -5,4 +5,4 @@ The CLI application takes in orders from customers and depletes stock from the s
 
 MySQL | Node.js |Inquirer | CLI-table
 
-![alt text](https://raw.githubusercontent.com/nadirahdurr/bamazon/branch/path/to/bamazon1.png)
+<img width="1356" alt="bamazon1" src="https://user-images.githubusercontent.com/31542146/38529604-caba55d0-3c33-11e8-9189-a15ed7e247c7.png">
