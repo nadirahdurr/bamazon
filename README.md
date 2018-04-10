@@ -15,13 +15,13 @@ MySQL | Node.js |Inquirer | CLI-table
 
 - Will then provide the customer with the total cost of the purchase. 
 
-- If the customer wishes to buy more items, BAMazon will prompt the customer to enter [y]. If not, then bamazon will display the message "Thanks for shopping at BAMazon!" and end the app when the customer selects [n]. 
+- If the customer wishes to buy more items, BAMazon will prompt the customer to enter [y]. If not, then BAMazon will display the message "Thanks for shopping at BAMazon!" and end the app when the customer selects [n]. 
 
 <img width="1481" alt="bamazon3" src="https://user-images.githubusercontent.com/31542146/38529633-051f6698-3c34-11e8-9b2a-a7f74fb7982a.png">
 
--MYSQL queries
+- MYSQL Queries
 
 <img width="1179" alt="bamazon4" src="https://user-images.githubusercontent.com/31542146/38529634-06587892-3c34-11e8-8a1a-773fb02405eb.png">
 
--MYSQL Workbench
+- MYSQL Workbench
 
